@@ -1,0 +1,60 @@
+.container
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+}
+
+table
+{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+    border-radius: 8px;
+}
+
+thead th
+{
+    background-color: rgb(47, 140, 100);
+    color: white;
+    font-weight: 600;
+    width: 20vw;
+    padding: 10px;
+    text-align: left;
+}
+
+td
+{
+    border-bottom: 1px solid grey;
+}
+
+
+td
+{
+    width: 20vw;
+    padding: 10px;
+}
+
+.pages
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.pages button,p
+{
+    background-color: rgb(47, 140, 100);
+    padding: 10px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.pages button
+{
+    cursor: pointer;
+}
+
+
