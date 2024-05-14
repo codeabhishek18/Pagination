@@ -34,7 +34,7 @@ const Pagination = () =>
         }
         catch(error)
         {
-            console.log(error);
+            alert('failed to fetch data');
         }
     }
 
